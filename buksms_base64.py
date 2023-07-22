@@ -7,7 +7,7 @@ username = "username"
 api_token_id = "token id"
 api_token_secret = "secret token"
 
-# Base64 encoding of the API token
+# Base64 encoding of the API token.
 api_token = f"{api_token_id}:{api_token_secret}"
 encoded_api_token = base64.b64encode(api_token.encode()).decode()
 
