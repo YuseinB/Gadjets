@@ -37,6 +37,7 @@ response = conn.getresponse()
 
 # Reading the answer
 data = response.read().decode()
+
 print(data)
 
 # Close the link
